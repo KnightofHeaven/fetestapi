@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+$light-red: #FE4250;
+$dark-red: #F73744;
+$light-gray: #222B32;
+$dark-gray: #181C1F;
+$text-gray: #7E909A;
+$white: #FFFFFF;
+
+$sm-breakpoint: 599px;
+$md-breakpoint: 959px;
+
+$body-font-family: 'Poppins', sans-serif;
+
+%scrollbar {
+    height: 5px;
+    background: $dark-gray;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+%scrollbar-thumb {
+    border-radius: 10px;
+    background: $white;
+    opacity: 0.5;
+}
